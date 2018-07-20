@@ -1,3 +1,21 @@
 page-hello-ionic {
+    
+    .index {
+        background-image: url("https://jimdo-lc-assets-es-prod.global.ssl.fastly.net/u38wEZ0QU0fg19TS1nS69YqA6.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70%;
+        color: #fff;
+        
+        h3 p{
+            /* Arriba | Derecha | Abajo | Izquierda */
+            margin: 20px 20px 20px 10px;
+        }        
 
+        p button {
+            background-color: transparent;
+            box-shadow: inset 0 0 0 2px hsla(0,0%,100%,.5);            
+        }
+    }
 }
+

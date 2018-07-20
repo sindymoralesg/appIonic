@@ -3,14 +3,31 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Profesional</ion-title>
+    <ion-title>Informaci&oacute;n profesional</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <p>
-    Informaci&oacute;n profesional.
-  </p>
+  <div class="profesional">
+      <p>
+          <ion-list class="lista">
+            <ion-item>
+                Universidad Santo Tom&aacute;s<br>
+                Especializaci&oacute;n en Auditor&iacute;a de Sistemas<br>
+                2016
+            </ion-item>
+            <ion-item>
+                Universidad Popular del Cesar<br>
+                Ingenier&iacute;a de Sistemas<br>
+                2011
+            </ion-item>
+            <ion-item>
+                APMG International
+                Certificaci&oacute;n Cobit 5 Fundation
+            </ion-item>
+          </ion-list>
+      </p>
+  </div>
   <!--<ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       <ion-icon name="{{item.icon}}" item-left></ion-icon>
